@@ -1,4 +1,4 @@
-.text-container{
+.text-container {
     position: absolute;
     text-align: center;
     margin-left: auto;
@@ -7,12 +7,18 @@
     right: 0;
 
 }
+
 body {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
     overflow: hidden;
 }
 
@@ -20,7 +26,7 @@ body {
     color: #ffc302;
     font: 900 155px 'Josefin Sans';
     font-stretch: expanded;
-  }
+}
 
 /* #subtitle {
     color: #ffc302;
@@ -28,21 +34,21 @@ body {
 } */
 
 
-p{
+p {
     color: #ffc302;
-    font: 12px 'Josefin Sans';   
+    font: 12px 'Josefin Sans';
 }
 
-.halves{
+.halves {
     width: 50%;
     height: 100vh;
 }
 
-#left_half{
+#left_half {
     float: left;
 }
 
-#right_half{
+#right_half {
     background: rgb(148, 89, 4);
     float: right;
 }
